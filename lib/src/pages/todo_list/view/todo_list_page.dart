@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/src/todo_list/controller/todo_list_controller.dart';
-import 'package:getx/src/todo_list/view/widget/todo_list_item.dart';
+import 'package:getx/src/pages/todo_list/controller/todo_list_controller.dart';
+import 'package:getx/src/pages/todo_list/view/widget/todo_list_item.dart';
 
 class TodoList extends GetView<TodoListController> {
   const TodoList({super.key});

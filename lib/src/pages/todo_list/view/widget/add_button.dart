@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/src/todo_list/controller/todo_list_controller.dart/';
+import 'package:getx/src/pages/todo_list/controller/todo_list_controller.dart/';
 
 class AddButton extends GetView<TodoListController> {
   const AddButton({super.key});

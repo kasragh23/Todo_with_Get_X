@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/src/todo_list/models/todo_view_model.dart';
-import 'package:getx/src/todo_list/controller/todo_list_controller.dart';
+import 'package:getx/src/pages/todo_list/models/todo_view_model.dart';
+import 'package:getx/src/pages/todo_list/controller/todo_list_controller.dart';
 
 class TodoListItem extends GetView<TodoListController> {
   const TodoListItem({
@@ -32,7 +32,7 @@ class TodoListItem extends GetView<TodoListController> {
             ),
           ),
           trailing: IconButton(
-            onPressed: () => controller.deleteTodo(todo.id, todo.isDone == false),
+            onPressed: () => controller.deleteTodo(todo.id),
             icon: const Icon(Icons.delete),
           ),
         ),

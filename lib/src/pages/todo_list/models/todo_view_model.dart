@@ -23,4 +23,9 @@ class TodoViewModel {
         description: description ?? this.description,
         isDone: isDone ?? this.isDone,
       );
+
+  //check copyWith()
+  // @override
+  // String toString() =>
+  //     'id: $id title: $title description: $description isDone: $isDone';
 }
